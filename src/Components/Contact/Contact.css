@@ -1,0 +1,61 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 200px 0 100px;
+  align-items: center;
+}
+
+.contact__container {
+  border: 1px solid white;
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.contact__container > p {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.contact__container > p > span {
+  color: #f64c08;
+}
+
+.contact__icons > a > button > span > .css-i4bv87-MuiSvgIcon-root {
+  color: white;
+  font-size: 30px;
+  /* .css-i4bv87-MuiSvgIcon-root */
+}
+
+.contact__icons > a > button {
+  color: white !important;
+}
+
+.formData {
+  text-align: center;
+  align-items: center;
+  background-image: url("https://th.bing.com/th/id/OIP.dPjXElxvd6cqHg5x81PUNgHaE8?pid=ImgDet&rs=1");
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: auto;
+}
+
+.input {
+  width: 470px;
+  border: 3px #f64c08 solid;
+}
+
+#inputfield {
+  align-items: center;
+  text-align: center;
+  background: transparent;
+}
